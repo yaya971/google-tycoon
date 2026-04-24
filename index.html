@@ -658,8 +658,8 @@ function resetGame(){localStorage.removeItem('GCCT_v6');location.reload();}
 
 // ── ONLINE LEADERBOARD (Google Sheets backend) ──
 // Replace this URL with your Google Apps Script Web App URL
-const LB_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
-const USE_ONLINE = false; // Set to true after setting up Google Sheets
+const LB_URL = 'https://script.google.com/macros/s/AKfycbwk0Hg7f9YM2DcBJKZCgXbNCWVVKdcx9FcfPeAVXLXFubl7HiCm9AEtz9NgqbIKfxQR/exec';
+const USE_ONLINE = true; // Set to true after setting up Google Sheets
 
 function saveToLBOnline(){
   const name = document.getElementById('lb-strip-inp').value.trim();
